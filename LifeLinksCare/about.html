@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Life Links Care</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/quantum.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="loader">
+        <l-quantum
+          size="80"
+          speed="1.75"
+          color= #193D60
+        ></l-quantum>
+    </div>
+    
+    <!-- Navbar section (same as in index.html) -->
+    <nav class="navbar">
+        
+        <nav class="navbar">
+            <div class="navbar_container">
+                <div class="navbar_logo">
+                  <a href="/"><img src="images/logo.png" alt="" class="logo-img">Life Links Care</a>
+                </div>
+                
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar_menu">
+                    <!-- <li class="navbar_item">
+                        <a href="/" class="navbar_links" id="Home-btn">HOME</a>
+                    </li> -->
+                    <li class="navbar_item">
+                        <a href="about.html" class="navbar_links" id="about-btn">ABOUT US</a>
+                    </li>
+                    <li class="navbar_item">
+                      <a href="index.html#services" class="navbar_links" id="services-btn">OUR SERVICES</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="team.html" class="navbar_links" id="team-btn">OUR TEAM</a>
+                    </li>
+                    
+                    <li class="navbar_item">
+                        <a href="#footer" class="navbar_links" id="contact-btn">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+         </nav>
+    </nav>
+
+    <!-- About Us Section -->
+    <div class="about-section">
+        <div class="about-container">
+            <h1 class="about-heading">About Life Links Care</h1>
+            <p class="about-description">We help pharmaceutical businesses grow by providing innovative solutions and unparalleled service.</p>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/pic7.jpg" alt="Life Links Care Team" class="team-img">
+                </div>
+                <!-- <div class="about-text">
+                    <h2>What makes us stand apart?</h2>
+                    <ul>
+                        <li><strong>RELIABILITY:</strong> We pride ourselves on being a reliable partner, delivering quality products and services consistently.</li>
+                        <li><strong>INNOVATION:</strong> Stay ahead in a dynamic market with our innovative solutions and industry expertise.</li>
+                        <li><strong>TRANSPARENCY:</strong> We believe in transparent partnerships, ensuring open communication and trust every step of the way.</li>
+                        <li><strong>CUSTOMER-CENTRIC APPROACH:</strong> Your success is our priority. Our customer-centric approach ensures your unique needs are met with precision.</li>
+                    </ul>
+                </div> -->
+                <div class="about-text">
+                  <h2>What makes us stand apart?</h2>
+                  <ul class="dropdown-list">
+                      <li class="dropdown-item">
+                          <button class="dropdown-toggle">RELIABILITY</button>
+                          <div class="dropdown-content">
+                              <p>We pride ourselves on being a reliable partner, delivering quality products and services consistently.</p>
+                          </div>
+                      </li>
+                      <li class="dropdown-item">
+                          <button class="dropdown-toggle">INNOVATION</button>
+                          <div class="dropdown-content">
+                              <p>Stay ahead in a dynamic market with our innovative solutions and industry expertise.</p>
+                          </div>
+                      </li>
+                      <li class="dropdown-item">
+                          <button class="dropdown-toggle">TRANSPARENCY</button>
+                          <div class="dropdown-content">
+                              <p>We believe in transparent partnerships, ensuring open communication and trust every step of the way.</p>
+                          </div>
+                      </li>
+                      <li class="dropdown-item">
+                          <button class="dropdown-toggle">CUSTOMER-CENTRIC APPROACH</button>
+                          <div class="dropdown-content">
+                              <p>Your success is our priority. Our customer-centric approach ensures your unique needs are met with precision.</p>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section (same as in index.html) -->
+    <div class="footer__container" id="footer">
+        
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+              <div class="footer__link--items">
+                <h2>About Us</h2>
+                <a href="team.html">Our team</a> <a href="/">Testimonials</a>
+                <script src="app.js"></script>
+              </div>
+              <div class="footer__link--items">
+                <h2>Contact 24x7</h2>
+                <a href="#footer" id="email"><img src="images/gmail.png" alt="" class="gmail-icon">llc.derma@gmail.com</a> 
+                <a href="#footer" id="email"><img src="images/phone.png" alt="" class="gmail-icon">+91 9636120294</a> 
+              </div>
+              <div class="footer__link--items">
+                <h2>Social Media</h2>
+                <a href="/">Instagram</a> <a href="/">Facebook</a>
+                <a href="/">Twitter</a>
+              </div>
+            </div>
+          </div>
+
+          
+          <section class="social__media">
+            <div class="social__media--wrap">
+              <div class="footer__logo">
+                <img src="images/logo.png" alt="" class="logo-img">
+                <p class="website__rights">© LIFE LINKS CARE. All rights reserved</p>
+              </div>
+            </div>
+          </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
